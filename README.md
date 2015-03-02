@@ -25,6 +25,7 @@ To do:
 - introduce augmented chords.
 - comment.
 - program alternative methods for finding the pitch profile.
+- consider root analysis.
 
 Authors: 
 --------------------------
