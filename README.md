@@ -1,10 +1,10 @@
 Chord Profiles
 ==========================
-A Matlab function (findChordName) that pretends to provide a SIMPLE framework where ALL the binary chord profiles are properly defined.
+A function (findChordName) that pretends to provide a SIMPLE framework where ALL the binary chord profiles are properly defined.
 
 ALL the chords are shown in 'chords.png' extracted from [1]. The chords appear in the code in the same order as in 'chords.png'.
 
-The code is written in Matlab.
+Code tested in Matlab and Octave.
 
 Examples on how to use the function, see 'example.m'.
 
