@@ -4,7 +4,7 @@ A function (findChordName) that pretends to provide a SIMPLE framework where ALL
 
 ALL the chords are shown in 'chords.png' extracted from [1]. The chords appear in the code in the same order as in 'chords.png'.
 
-Code tested in Matlab and Octave.
+Working under Matlab and Octave.
 
 Examples on how to use the function, see 'example.m'.
 
@@ -22,10 +22,9 @@ Note that the pitch profiles are exactly the same but depending on the context o
 
 To do:
 --------------------------
-- introduce augmented chords.
-- comment.
-- program alternative methods for finding the pitch profile.
-- consider root analysis.
+- introduce Aug chords.
+- ordenate chords from simpler to much harder.
+- program alternative methods for finding the pitch profile: root coding.
 
 Authors: 
 --------------------------
