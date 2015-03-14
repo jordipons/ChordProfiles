@@ -2,7 +2,8 @@ Chord Profiles
 ==========================
 A function (findChordName) that pretends to provide a SIMPLE framework where ALL the binary chord profiles are properly defined.
 
-ALL the chords are shown in 'chords.png' extracted from [1]. The chords appear in the code in the same order as in 'chords.png'.
+All the chords in 'chords.png' (extracted from [1]) are listed into the code.
+Additionally, more chords (sus4, sus2, 7sus4, M7sus4, add2, madd2) were defined also in the library.
 
 Working under Matlab and Octave.
 
@@ -20,9 +21,9 @@ Am7   = [1  0  0  0  1  0  0  1  0  1  0  0]
 
 Note that the pitch profiles are exactly the same but depending on the context one pitch profile is more correct than other. Currently, the framework is still not capable to choose the best option.
 
-To do:
+Future work:
 --------------------------
-- program alternative methods for finding the pitch profile: root coding.
+- Root coding: to give preference to a specific root.
 
 Authors: 
 --------------------------
