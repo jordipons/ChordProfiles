@@ -3,7 +3,7 @@ Chord Profiles
 A function (findChordName) that pretends to provide a SIMPLE framework where ALL the binary chord profiles are properly defined.
 
 All the chords in 'chords.png' (extracted from [1]) are listed into the code.
-Additionally, more chords (sus4, sus2, 7sus4, M7sus4, add2, madd2) were defined also in the library.
+Additionally, more chords (sus4, sus2, 7sus4, M7sus4, add2, madd2) were also defined into the library.
 
 Working under Matlab and Octave.
 
