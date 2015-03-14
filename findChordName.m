@@ -13,9 +13,16 @@ function chord_name = findChordName(chord,method)
     %		chord_name = E7
     %
     % Authors: Jordi Pons (idrojsnop@gmail.com) and Xavi Lizarraga (xavilizarraga@gmail.com)
-    
+        
     % load the dictionary of chord profiles defined in the function loadChordClasses() below
     [cell_pitch_class, cell_chords_profiles_names, chords_profiles] = loadChordClasses();
+    
+    % pre-processing. Normalize chords and chords profiles. In that way one
+    % can use noisy input chords without compromizing the un-noisy cases.
+    chord=chord./max(chord);
+    for i=1:size(chords_profiles,1)
+        chords_profiles(i,:)=chords_profiles(i,:)./max(chords_profiles(i,:));
+    end
     
     switch lower(method)
         %%%% BINARY %%%%
@@ -43,12 +50,8 @@ function chord_name = findChordName(chord,method)
         %%%% CORRELATION %%%%
         case {'correlation'}
             
+            % Remaining question:
             % what does that mean negative correlation in that context?
-            
-            % inverse weight for length of note if not ordered.
-            
-            % CONSTRAINT: one can only input binary chord profiles! Should
-            % binarize outside my function.
             
             % compute correlation for all cases
             corr_coeff=zeros(size(cell_pitch_class,1),size(chords_profiles,1));
@@ -60,7 +63,7 @@ function chord_name = findChordName(chord,method)
             end
             
             % find the most correlated: candidates
-            [i_max,j_max] = find(corr_coeff == max(round(corr_coeff(:))));
+            [i_max,j_max] = find(round(corr_coeff) == max(round(corr_coeff(:))));
                 % saving the most correlated
                 S_i_max=i_max; 
                 S_j_max=j_max;

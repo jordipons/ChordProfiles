@@ -22,8 +22,6 @@ Note that the pitch profiles are exactly the same but depending on the context o
 
 To do:
 --------------------------
-- introduce Aug chords.
-- ordenate chords from simpler to much harder.
 - program alternative methods for finding the pitch profile: root coding.
 
 Authors: 
