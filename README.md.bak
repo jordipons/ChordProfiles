@@ -2,7 +2,7 @@ Chord Profiles
 ==========================
 A function (findChordName) that pretends to provide a SIMPLE framework where ALL the binary chord profiles are properly defined.
 
-Two methods are provided: 'binary' and 'correlation'.
+Two methods are provided: 'binary' and 'correlationasdf'.
 
 - Binary method: returns the name of the binary chord profile equal to the input (if there is). Therefore: this method only considers two possibilities (known or unknown): if the binary pitch-class distribution is not exactly equal to one chord profile, the chord is tagged as unknown.
 
