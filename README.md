@@ -41,3 +41,9 @@ Jordi Pons (idrojsnop@gmail.com) and Xavi Lizarraga (xavilizarraga@gmail.com)
 References:
 --------------------------
 [1] - Jerry Coker. Improvising Jazz. Simon and Schuster, New York, 1964.
+
+License:
+--------------------------
+This code is Copyright 2015 Jordi Pons and Xavi Lizarraga. It is released under [Affero GPLv3 license](http://www.gnu.org/licenses/agpl.html) except for the third party libraries and images which have its own licenses.
+
+This code is free software: you can redistribute it and/or modify it under the terms of the Affero GPLv3 as published by the Free Software Foundation. This code is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
